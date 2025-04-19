@@ -1,8 +1,18 @@
+"use client";
 import Image from "next/image";
-
+  import Signin from "./signin/page";
 export default function Home() {
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center bg-gray-900 gap-4">
+      
+<Signin/>
+
+
+
+
+
+
+      
       <h1 className="font-bold text-4xl">AceMate ❤️</h1>
       <div className="w-1/2 h-1/3 space-y-2 border-2 border-gray-700 rounded-lg flex flex-col px-3 py-4  bg-gray-800 lg:w-1/4">
       <h3 className="text-gray-600 text-lg font-light"> Your smart learning partner to ace interviews, notes, and quizzes.</h3>
